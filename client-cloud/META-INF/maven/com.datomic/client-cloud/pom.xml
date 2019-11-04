@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datomic</groupId>
+  <artifactId>client-cloud</artifactId>
+  <version>0.8.78</version>
+  <name>client-cloud</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-s3</artifactId>
+      <version>1.11.210</version>
+    </dependency>
+    <dependency>
+      <groupId>com.cognitect</groupId>
+      <artifactId>anomalies</artifactId>
+      <version>0.1.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.cognitect</groupId>
+      <artifactId>s3-creds</artifactId>
+      <version>0.1.22</version>
+    </dependency>
+    <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>client-impl-shared</artifactId>
+      <version>0.8.67</version>
+    </dependency>
+    <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>client</artifactId>
+      <version>0.8.81</version>
+    </dependency>
+    <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>s3-access-keys</artifactId>
+      <version>0.1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>core.async</artifactId>
+      <version>0.3.442</version>
+    </dependency>
+  </dependencies>
+</project>

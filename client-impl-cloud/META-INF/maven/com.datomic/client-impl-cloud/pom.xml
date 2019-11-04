@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datomic</groupId>
+  <artifactId>client-impl-cloud</artifactId>
+  <version>0.8.35</version>
+  <name>client-impl-cloud</name>
+  <description>HTTP client</description>
+  <url>http://cognitect.com</url>
+  <licenses>
+    <license>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <name>The Apache Software License, Version 2.0</name>
+      <comments/>
+    </license>
+  </licenses>
+  <packaging>jar</packaging>
+  <scm>
+    <url>http://cognitect.com</url>
+    <tag>7b70d79f38016f5270112a450226405b1072a8c5</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Tim Ewald</name>
+      <email>tim@cognitect.com</email>
+    </developer>
+    <developer>
+      <name>Chris Redinger</name>
+      <email>chris@cognitect.com</email>
+    </developer>
+    <developer>
+      <name>Stuart Halloway</name>
+      <email>stu@cognitect.com</email>
+    </developer>
+    <developer>
+      <name>David Nolen</name>
+      <email>dnolen@cognitect.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.cognitect</groupId>
+      <artifactId>s3-creds</artifactId>
+      <version>0.1.20</version>
+      <scope>compile</scope>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>s3-access-keys</artifactId>
+      <version>0.1.6</version>
+      <scope>compile</scope>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.cognitect</groupId>
+      <artifactId>anomalies</artifactId>
+      <version>0.1.12</version>
+      <scope>provided</scope>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.datomic</groupId>
+      <artifactId>client-impl-shared</artifactId>
+      <version>0.8.23</version>
+      <scope>provided</scope>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>core.async</artifactId>
+      <version>0.3.442</version>
+      <scope>provided</scope>
+      <exclusions/>
+    </dependency>
+  </dependencies>
+</project>
